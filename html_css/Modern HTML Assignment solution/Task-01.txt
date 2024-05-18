@@ -1,0 +1,8 @@
+Task 1)  List out the features of HTML5.
+Ans.
+Semantics: Introduces new semantic elements like <article>, <section>, <nav>, <header>, <footer>, etc., helping better structure content.
+Audio and Video: Native support for embedding audio and video content with <audio> and <video> tags, reducing the need for third-party plugins.
+Canvas: Introduces the <canvas> element for dynamic, scriptable rendering of 2D shapes and bitmap images, allowing for interactive graphics.
+Responsive Design: Built-in support for responsive web design through features like media queries, enabling better adaptability to different devices and screen sizes.
+Form Controls: Enhances form elements with new input types like email, tel, url, number, and date, along with validation attributes.
+Drag and Drop: Provides native drag-and-drop functionality, making it easier to implement interactive user interfaces.

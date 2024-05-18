@@ -1,0 +1,53 @@
+<!-- sign-in and sign-up form with proper validation -->
+<!-- a.) firstname,last name, email, password, confirm password, age , gender, agree to t&c,text area, select tag, username, and many more.
+b.) sign-in form- email and password (or username also)
+NOTE: Validation is a must
+Ex: First name, last name, email cannot be less than 3 characters, age cannot be negative and cannot be
+greater than 150, fields are required, etc -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Sign In Form</title>
+</head>
+<body>
+
+<h2>Sign Up</h2>
+<form id="signupForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required minlength="3"><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required minlength="3"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="8"><br>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8" pattern=".{8,}"><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required min="0" max="150"><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br>
+    <input type="checkbox" id="agree" name="agree" required>
+    <label for="agree">Agree to terms and conditions</label><br>
+    <button type="submit">Sign Up</button>
+</form>
+
+<h2>Sign In</h2>
+<form id="Sign-in Form">
+    <label for="signinEmail">Email:</label>
+    <input type="email" id="signinEmail" name="signinEmail" required><br>
+    <label for="signinPassword">Password:</label>
+    <input type="password" id="signinPassword" name="signinPassword" required minlength="8"><br>
+    <button type="submit">Sign In</button>
+</form>
+
+</body>
+</html>

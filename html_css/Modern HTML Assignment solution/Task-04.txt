@@ -1,0 +1,5 @@
+Task 4) List any 3 ways which help us in improving the accessibility of HTML.
+Ans.
+Semantic HTML: Use appropriate semantic tags to convey the structure and meaning of content. For example, use <nav> for navigation, <header> for headers, and <article> for self-contained content.
+Alt Text for Images: Include descriptive alternative text (alt attribute) for images to ensure that users with visual impairments understand the content.
+Keyboard Accessibility: Ensure that all interactive elements and functionalities can be accessed and operated using a keyboard, catering to users who cannot use a mouse.
